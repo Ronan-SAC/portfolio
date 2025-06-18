@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arch Terminal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-body" id="terminal-body">
+            <div class="resume"><pre>                                                        
+                                                                      
+                        ++                        Ronan's <p class="terminal-line">Portfólio</p>
+                       ++++                         OS: <p class="terminal-line">Arch Linux</p>
+                      *+++++                        Host: <p class="terminal-line">VirtualBox 1.2</p>
+                     ++++++++                       Terminal: <p class="terminal-line">kitty</p>
+                    ++++++++++                      Shell: <p class="terminal-line">/bin/fish</p>
+                   ++++++++++++                     DE: <p class="terminal-line">Hyprland</p>
+                  +++++    +++++                    CPU: <p class="terminal-line" id="cpu-info">Loading...</p>
+                 ++++++    ++++++                   Memory: <p class="terminal-line" id="memory-info">Loading...</p>
+                ++++*        +++++                  Display: <p class="terminal-line" id="resolution-info">Loading...</p>
+               *+                +*                 Server: <p class="terminal-line">github</p>
+            </pre></div>
+            <div>
+                Welcome to my portfolio! To display the available commands, type <code>help</code>. To validate each command press Enter
+            </div>
+            <br>
+            <div class="input-line">
+                <span class="prompt">Ronan:~$</span>
+                <input type="text" id="command-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>
