@@ -30,4 +30,8 @@ Este é o meu portfólio pessoal de desenvolvimento web. O projeto foi construí
 └── assets/           # Diretório contendo imagens e o currículo (cv.pdf)
 ```
 
+## WEB version 🌐
+
+O site está no ar aqui 👉 [portfolio](https://ronan-sac.github.io/portfolio/)
+
 *Construído com foco e design por Ronan S Campos.*
