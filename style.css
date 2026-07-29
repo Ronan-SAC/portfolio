@@ -338,8 +338,8 @@ nav {
   background-position: center;
 }
 
-.project-image.preview {
-  background: linear-gradient(135deg, rgba(153, 0, 204, 0.2) 0%, rgba(0, 115, 230, 0.4) 100%), url('assets/preview.png');
+.project-image.terminal {
+  background: linear-gradient(135deg, rgba(153, 0, 204, 0.2) 0%, rgba(0, 115, 230, 0.4) 100%), url('assets/terminal.png');
   background-size: cover;
   background-position: top;
 }
